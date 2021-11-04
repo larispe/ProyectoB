@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(3, 46, 109);
+}
+
+/* Style the header */
+header {
+    background-color: rgb(3,46,109);
+    padding: 30px;
+    text-align: left;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+/*DIVISIONES EN HTML*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(15, 2, 87);
+  color: whitesmoke;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding:10px;
+}
+/*left column*/
+.column.left{
+  background-color: rgb(149, 178, 235);
+  font-size: 25px;
+  width:20%}
+  /*formato de links*/
+a:link{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(56, 56, 58);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+/*right column*/
+.column.right{
+  background-color: rgb(236, 231, 188);
+  width: 80%;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+
+
+.titulo1{
+    font-family: 'verdana';
+    text-align: right;
+    color: whitesmoke;
+    border: 2px rgb(0,56,165) ;
+    font-size: 50px;
+}
+
+/*formato de links
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(56, 56, 58);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}*/
+} 

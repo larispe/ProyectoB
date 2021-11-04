@@ -1,0 +1,12 @@
+
+ /*divisiones imagenes*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color:transparent;
+  
+}
+
+.grid-container > div {
+  background-color:transparent;
+}

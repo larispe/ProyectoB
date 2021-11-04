@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <header>
+        <title> Inscripcion-Socios </title>
+    </header>
+<body>
+    <h1>Formulario de Inscripcion</h1>
+<form>
+    <!--DATOS PERSONALES-->
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nomb">Nombre(s):</label><br>
+        <input type="text" id="nomb" name="nomb" maxlength="20"><br><br>
+
+        <label>Apellido(s):</label><br>
+        <input type="text" id="ape" name="ape" maxlength="20"> <br><br>
+
+        <LABel for="sexo">Sexo:</LABel><br>
+        <input type="radio" id="fem" name="sexo" value="Femenino">
+        <label for="fem">Femenino</label><br>
+        <input type="radio" id="masc" name="sexo" value="masc">
+        <label for="masc">Masculino</label><br>
+        <input type="radio" id="otro" name="sexo" value="otro">
+        <label for="otro">Otro</label><br><br>
+
+
+        <label for="tipoDoc">Tipo de Documento:</label><br>
+        <select name="tipoDoc" id="tipoDoc">
+            <option value="dni">D.N.I.</option>
+            <option value="libCiv">Libreta Civica</option>
+            <option value="libEnr">Libreta de Enrolamiento</option>
+            <option value="pas">Pasaporte</option>
+        </select><br><br>
+        
+        <label for="doc">Documento:</label><br>
+        <input type="text" id="doc" name="doc" maxlength="15">
+
+    </fieldset>
+    <!--DATOS DE RESIDENCIA-->
+    <fieldset>
+        <legend>Datos de Residencia</legend>
+        <label for="calle">Calle</label><br>
+        <input type="text" id="calle" name="calle" maxlength="20"><br><br>
+        
+        <label for="num">Numero:</label><br>
+        <input type="text" id="num" name="num" min="0" max="6"><br><br>
+
+        <label for="codPo">Codigo Postal</label><br>
+        <input type="number" id="codPo" name="codPo" min="1" max="6"><br><br>
+
+        <label for="prov">Provincia:</label>
+        <select name="prov" id="prov">
+            <option value="BA">Buenos Aires</option>
+            <option value="CA">Catamarca</option>
+            <option value="CH">Chaco</option>
+            <option value="CT">Chubut</option>
+            <option value="CB">Cordoba</option>
+            <option value="CR">Corrientes</option>
+            <option value="ER">Entre Rios</option>
+            <option value="FO">Formosa</option>
+            <option value="JY">Jujuy</option>
+            <option value="LP">La Pampa</option>
+            <option value="LR">La Rioja</option>
+            <option value="MZ">Mendoza</option>
+            <option value="MI">Misiones</option>
+            <option value="NQN">Neuquen</option>
+            <option value="RN">Rio Negro</option>
+            <option value="SA">Salta</option>
+            <option value="SJ">San Juan</option>
+            <option value="SL">San Luis</option>
+            <option value="SC">Santa Cruz</option>
+            <option value="SF">Santa Fe</option>
+            <option value="SE">Santiago del Estero</option>
+            <option value="TF">Tierra del Fuego</option>
+            <option value="TU">Tucuman</option>
+        </select>
+
+    </fieldset>
+</form>
+</body>
+</html>
